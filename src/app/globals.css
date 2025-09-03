@@ -41,14 +41,24 @@
 	--sidebar-border: oklch(0.922 0 0);
 	--sidebar-ring: oklch(0.708 0 0);
 
-	/* Beauty Brand Colors */
-	--beauty-primary: #e8b4a6;
-	--beauty-secondary: #f5e6d3;
-	--beauty-accent: #d4a574;
-	--beauty-text: #2d2d2d;
+	/* Design Agent Brand Colors */
+	--design-primary: #4338ca;
+	--design-secondary: #f0f9ff;
+	--design-accent: #06b6d4;
+	--design-text: #1f2937;
+	--design-text-light: #6b7280;
+	--design-text-muted: #9ca3af;
+	--design-success: #10b981;
+	--design-warning: #f59e0b;
+	--design-gradient-from: #4338ca;
+	--design-gradient-to: #06b6d4;
+
+	/* Beauty Advisor Colors (for comparison examples) */
+	--beauty-primary: #e11d48;
+	--beauty-secondary: #fdf2f8;
+	--beauty-accent: #ec4899;
+	--beauty-text: #1f2937;
 	--beauty-text-light: #6b7280;
-	--beauty-success: #10b981;
-	--beauty-trust: #3b82f6;
 
 	/* Spacing System */
 	--space-xs: 8px;
