@@ -40,6 +40,24 @@
 	--sidebar-accent-foreground: oklch(0.205 0 0);
 	--sidebar-border: oklch(0.922 0 0);
 	--sidebar-ring: oklch(0.708 0 0);
+
+	/* Beauty Brand Colors */
+	--beauty-primary: #e8b4a6;
+	--beauty-secondary: #f5e6d3;
+	--beauty-accent: #d4a574;
+	--beauty-text: #2d2d2d;
+	--beauty-text-light: #6b7280;
+	--beauty-success: #10b981;
+	--beauty-trust: #3b82f6;
+
+	/* Spacing System */
+	--space-xs: 8px;
+	--space-sm: 16px;
+	--space-md: 24px;
+	--space-lg: 32px;
+	--space-xl: 48px;
+	--space-2xl: 64px;
+	--space-3xl: 80px;
 }
 
 @theme inline {

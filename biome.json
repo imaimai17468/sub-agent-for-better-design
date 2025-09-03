@@ -6,7 +6,16 @@
 		"useIgnoreFile": false
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": false,
+		"includes": [
+			"src/**/*.ts",
+			"src/**/*.tsx",
+			"src/**/*.js",
+			"src/**/*.jsx",
+			"src/**/*.json",
+			"src/**/*.jsonc",
+			"src/**/*.md"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -15,7 +24,10 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"suspicious": {
+				"noArrayIndexKey": "off"
+			}
 		}
 	},
 	"javascript": {
